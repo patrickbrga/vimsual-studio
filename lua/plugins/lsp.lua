@@ -1,5 +1,5 @@
 return {
-  require("lsp.mason"),
-  require("lsp.nvim-dap"),
-  require("lsp.diagnostics")
+    require("lsp.mason"),
+    require("lsp.nvim-dap"),
+    require("lsp.diagnostics")
 }

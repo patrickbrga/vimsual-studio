@@ -6,7 +6,7 @@ function F.CurrentBufferFilename()
 end
 
 function F.CurrentBufferLsp()
-  local buf_ft = F.CurrentBufferFilename()
+    local buf_ft = F.CurrentBufferFilename()
     local clients = vim.lsp.get_clients()
     if next(clients) == nil then return "" end
     local current_clients = ""
@@ -22,7 +22,7 @@ function F.CurrentBufferLsp()
 end
 
 function F.RefreshStatusLine()
-  require("lualine").refresh({ statusline = true })
+    require("lualine").refresh({ statusline = true })
 end
 
 return F

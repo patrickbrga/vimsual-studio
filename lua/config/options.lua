@@ -22,12 +22,12 @@ vim.opt.softtabstop = 2
 vim.opt.clipboard = "unnamedplus"
 
 vim.opt.fillchars = {
-  eob = " ",
-  diff = "-",
-  fold = " ",
-  foldopen = I.ui.ChevronShortDown,
-  foldsep = " ",
-  foldclose = I.ui.ChevronShortRight
+    eob = " ",
+    diff = "-",
+    fold = " ",
+    foldopen = I.ui.ChevronShortDown,
+    foldsep = " ",
+    foldclose = I.ui.ChevronShortRight
 }
 
 -- Show relative numbers
@@ -60,15 +60,15 @@ vim.o.foldcolumn = 'auto'
 
 -- Diagnostics
 vim.diagnostic.config({
-  virtual_text = false,
-  signs = {
-    text = {
-      [vim.diagnostic.severity.ERROR] = " ",
-      [vim.diagnostic.severity.WARN] = " ",
-      [vim.diagnostic.severity.INFO] = " ",
-      [vim.diagnostic.severity.HINT] = " ",
+    virtual_text = false,
+    signs = {
+        text = {
+            [vim.diagnostic.severity.ERROR] = " ",
+            [vim.diagnostic.severity.WARN] = " ",
+            [vim.diagnostic.severity.INFO] = " ",
+            [vim.diagnostic.severity.HINT] = " ",
+        },
     },
-  },
 })
 
 vim.opt.termguicolors = true
